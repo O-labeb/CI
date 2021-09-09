@@ -72,7 +72,7 @@ class ConverterTests: XCTestCase {
   }
   
   func testConversionForTwenty() {
-    let result = converter.convert(20)
+    let result = converter.convert(21)
     XCTAssertEqual(result, "XX", "Conversion for 20 is incorrect")
   }
   
