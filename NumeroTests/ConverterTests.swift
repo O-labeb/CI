@@ -55,7 +55,7 @@ class ConverterTests: XCTestCase {
   }
   
   func testConversionForFive() {
-    let result = converter.convert(12)
+    let result = converter.convert(5)
     XCTAssertEqual(result, "V", "Conversion for 5 is incorrect")
   }
   
